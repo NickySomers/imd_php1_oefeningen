@@ -1,0 +1,46 @@
+body
+{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+header
+{
+    padding: 20px;
+    box-sizing: border-box;
+    width: 100%;
+    background-color: #263238;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+article
+{
+    height: 25vh;
+    font-size: 1.6rem;
+    color: white;
+    padding-left: 10%;
+    padding-right: 10%;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+-webkit-box-shadow: inset 0px 0px 53px -15px rgba(0,0,0,0.75);
+-moz-box-shadow: inset 0px 0px 53px -15px rgba(0,0,0,0.75);
+box-shadow: inset 0px 0px 53px -15px rgba(0,0,0,0.75);
+}
+
+.red
+{
+    background-color: #F44336;
+}
+
+.orange
+{
+    background-color: #FFC107;
+}
+
+.green
+{
+    background-color: #8BC34A;
+}
